@@ -30,6 +30,12 @@
       <value></value>
       <variableId>57ffafba-75fd-485d-9995-c0711cf38bdf</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>996986e5-7c05-4ed7-9e2a-3f5c8a9ceeac</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Seoul CURA Healthcare Center'</defaultValue>
       <description></description>
@@ -57,5 +63,12 @@
       <id>57ffafba-75fd-485d-9995-c0711cf38bdf</id>
       <masked>false</masked>
       <name>Programs</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>996986e5-7c05-4ed7-9e2a-3f5c8a9ceeac</id>
+      <masked>false</masked>
+      <name>Visitdate</name>
    </variable>
 </TestCaseEntity>

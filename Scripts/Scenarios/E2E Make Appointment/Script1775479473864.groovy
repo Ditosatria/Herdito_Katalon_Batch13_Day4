@@ -21,8 +21,8 @@ WebUI.callTestCase(findTestCase('Blocks/Reusable Test Case/Open Browser'), [:], 
 
 WebUI.callTestCase(findTestCase('Blocks/Positive/Login/LG001_PositiveLogin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Blocks/Positive/Make Appointment/LG002_MakeAppointment'), [('Facility') : 'Seoul CURA Healthcare Center'
-        , ('Comment') : 'Test Aplikasi', ('Readmission') : false, ('Programs') : 'Medicaid'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Blocks/Positive/Make Appointment/LG002_MakeAppointment'), [('Facility') : Facility, ('Comment') : Comment
+        , ('Readmission') : Readmission, ('Programs') : Programs, ('Visitdate') : Visitdate], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Blocks/Reusable Test Case/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
