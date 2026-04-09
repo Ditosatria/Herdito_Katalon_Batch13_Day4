@@ -52,7 +52,7 @@ switch (Programs) {
 
 WebUI.click(findTestObject('Page_MakeAppointment/input_Visit_Date'))
 
-WebUI.setText(findTestObject('Page_MakeAppointment/input_Visit_Date'), 'Visitdate')
+WebUI.setText(findTestObject('Page_MakeAppointment/input_Visit_Date'), Visitdate)
 
 WebUI.setText(findTestObject('Page_MakeAppointment/textarea_Comment'), Comment)
 

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
-   <description>Excel yang berisi Test Data</description>
-   <name>AppointmentData</name>
+   <description></description>
+   <name>Appointment_Data</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>2aef866f-310d-4e24-8930-7142b5c9680c</dataFileGUID>
+   <dataFileGUID>318f4b03-6f92-419f-9123-e134512c564f</dataFileGUID>
    <dataSourceUrl>Data Files/Raw Data/AppointmentData.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>

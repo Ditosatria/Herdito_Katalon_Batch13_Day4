@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_DDT_E2E_BookingMultidata</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>1</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>36f766ad-74ac-4301-b2b4-5a1161e2f81b</testSuiteGuid>
+   <testCaseLink>
+      <guid>e31c39bb-b9dc-47ad-a174-2df869da643a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenarios/E2E Make Appointment</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>229deaa8-9fcd-4e6d-9dd4-8f33d523d05c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Test Data/Appointment_Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>229deaa8-9fcd-4e6d-9dd4-8f33d523d05c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Facility</value>
+         <variableId>2c198d9b-e934-474e-8606-940403aa2df2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>229deaa8-9fcd-4e6d-9dd4-8f33d523d05c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Comment</value>
+         <variableId>3c1cff33-1983-4834-acbf-b143a23f97bf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>229deaa8-9fcd-4e6d-9dd4-8f33d523d05c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Readmission</value>
+         <variableId>d89f313f-5067-442c-a2a9-65556f0721b7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>229deaa8-9fcd-4e6d-9dd4-8f33d523d05c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Programs</value>
+         <variableId>57ffafba-75fd-485d-9995-c0711cf38bdf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>229deaa8-9fcd-4e6d-9dd4-8f33d523d05c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Visitdate</value>
+         <variableId>996986e5-7c05-4ed7-9e2a-3f5c8a9ceeac</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
